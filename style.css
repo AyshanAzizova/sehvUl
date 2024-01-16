@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav .navbar{
+background-color: aqua;
+padding: 0 50px;
+display: flex;
+justify-content: space-between;
+}
+header nav .navbar .navLeft{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+header nav .navbar .navLeft .navlist{
+display: flex;
+list-style-type: none;
+gap: 40px;
+font-size: 16px;
+
+}
+header nav .navbar .navLeft a{
+    text-decoration: none;
+}
+header nav .navbar .navleft .navlist ul .hidden{
+    border: 1px solid gray;
+    list-style-type: none;
+    width: 110px;
+    position: absolute;
+}
